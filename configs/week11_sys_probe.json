@@ -1,0 +1,121 @@
+{
+  "env": {
+    "timestamp": "2025-11-03T09:30:17.099090",
+    "python": "3.11.9 (main, Aug 17 2025, 16:43:18) [GCC 13.3.0]",
+    "paths": {
+      "W11": "/home/manny-buff/projects/capstone/week11-hw",
+      "MODELS_RO": "/home/manny-buff/projects/capstone/hw-rag/models",
+      "DATA_RO": "/home/manny-buff/projects/capstone/hw-rag/data"
+    }
+  },
+  "dirs_status": {
+    "/home/manny-buff/projects/capstone/week11-hw": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/notebooks": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/src": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/data": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/data/external": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/artifacts": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/visual_outputs": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/audio_inputs": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/audio_outputs": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/configs": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/reports": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/week11-hw/source_mats": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/hw-rag/models": [
+      true,
+      "dir"
+    ],
+    "/home/manny-buff/projects/capstone/hw-rag/data": [
+      true,
+      "dir"
+    ]
+  },
+  "models_present": {
+    "Qwen2.5-VL-2B-Instruct": [],
+    "Intern3_5-VL-4B-Instruct": []
+  },
+  "packages": {
+    "torch": "2.9.0+cu128",
+    "torchvision": "0.24.0+cu128",
+    "torchaudio": "not_importable (OSError: Could not load this library: /home/manny-buff/venvs/core-rag/lib/python3.11/site-packages/torchaudio/lib/libtorchaudio.so)",
+    "transformers": "4.45.2",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "not_importable (ModuleNotFoundError: No module named 'bitsandbytes')",
+    "opencv": "4.12.0",
+    "cv2": "4.12.0",
+    "imageio": "2.37.0",
+    "imageio_ffmpeg": "not_importable (ModuleNotFoundError: No module named 'imageio_ffmpeg')",
+    "PIL": "10.4.0",
+    "tqdm": "4.67.1",
+    "pandas": "2.2.3",
+    "numpy": "2.2.1",
+    "networkx": "3.3",
+    "faiss": "1.10.0",
+    "faiss_cpu": "not_importable (ModuleNotFoundError: No module named 'faiss_cpu')",
+    "chromadb": "1.1.0"
+  },
+  "cuda": {
+    "available": true,
+    "device_count": 1,
+    "device_name_0": "NVIDIA GeForce RTX 4080",
+    "capability_0": "8.9",
+    "nvidia_smi": "/usr/bin/nvidia-smi"
+  },
+  "ffmpeg": {
+    "path": "/usr/bin/ffmpeg",
+    "version_line": "ffmpeg version 6.1.1-3ubuntu5+esm6 Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "disk": {
+    "week11_hw": {
+      "total_gb": 1261.0,
+      "used_gb": 417.64,
+      "free_gb": 786.93
+    },
+    "data_ro": {
+      "total_gb": 1261.0,
+      "used_gb": 417.64,
+      "free_gb": 786.93
+    },
+    "models_ro": {
+      "total_gb": 1261.0,
+      "used_gb": 417.64,
+      "free_gb": 786.93
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# Bytecode & caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cache/
+*.log
+
+# Large/ephemeral outputs (keep curated only)
+visual_outputs/
+artifacts/vlm/
+artifacts/graph_v2/images/
+artifacts/pipeline/
+artifacts/*.json
+!artifacts/curated/**
+artifacts/curated/*
+!artifacts/curated/faucet_spout.png
+!artifacts/curated/svd_example.mp4
+artifacts/curated/MANIFEST.*
+# Data scratch
+data/external/
+audio_inputs/
+audio_outputs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

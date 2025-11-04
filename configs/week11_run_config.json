@@ -1,0 +1,10 @@
+{
+"random_seed": 42,
+"device_preference": "cuda_if_available",
+"paths": {
+"root": "/home/manny-buff/projects/capstone/week11-hw",
+"models_ro": "/home/manny-buff/projects/capstone/hw-rag/models",
+"data_ro": "/home/manny-buff/projects/capstone/hw-rag/data",
+"artifacts": "/home/manny-buff/projects/capstone/week11-hw/artifacts"
+}
+}
